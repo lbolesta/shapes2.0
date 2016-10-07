@@ -1,6 +1,5 @@
 package edu.luc.etl.cs313.android.shapes.android;
 
-import edu.luc.etl.cs313.android.shapes.android.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,7 +12,8 @@ public class SimpleDrawActivity extends Activity {
   public void onCreate(final Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     Log.i(TAG, "onCreate");
-    setContentView(R.layout.activity_main);
+    DrawWidget drawWidget = new DrawWidget(this);
+    setContentView(drawWidget);
   }
 
   @Override
