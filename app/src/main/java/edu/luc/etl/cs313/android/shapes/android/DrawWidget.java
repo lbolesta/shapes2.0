@@ -43,3 +43,4 @@ public class DrawWidget extends View {
 		canvas.translate(b.getX(), b.getY());
 	}
 }
+//changed Fixtures.simpleCircle to Fixtures.complexGroup
