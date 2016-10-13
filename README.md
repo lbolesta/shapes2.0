@@ -3,7 +3,7 @@
 * Familiarity with a simple graphical (output-only) Android project
 * Basic design patterns and their purpose
     * Composite pattern
-    * Decorator pattern
+    * De`orator pattern
     * Visitor pattern
 
 # Reading/Listening

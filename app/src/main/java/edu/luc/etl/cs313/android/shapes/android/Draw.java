@@ -99,6 +99,3 @@ public class Draw implements Visitor<Void> {
 		return null;
 	}
 }
-//acidently deleted repo trying to undo
-//completed TODO, still not passing all tests
-//problem with emulator
