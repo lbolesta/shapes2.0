@@ -31,7 +31,7 @@ public class Fixtures {
 					new Fill(
 						new Group(
 							new Rectangle(50, 30),
-							new Outline(new Rectangle(300, 60)),
+							new Outline(new Rectangle(300, 60)),//this one will be an outline
 				  			new Stroke(Color.CYAN,
 				  				new Polygon(
 				  					new Point(50, 50),
@@ -46,7 +46,7 @@ public class Fixtures {
 								)
 							)
 						)
-					)
+					)//all of these fall under to fill category
 				)
 			)
 		)

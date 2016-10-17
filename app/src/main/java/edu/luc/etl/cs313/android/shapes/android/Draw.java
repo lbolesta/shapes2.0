@@ -22,8 +22,8 @@ public class Draw implements Visitor<Void> {
 	private final Paint paint;
 
 	public Draw(final Canvas canvas, final Paint paint) {
-		this.canvas = canvas;
-		this.paint = paint;
+		this.canvas = canvas;//fixed
+		this.paint = paint;//fixed
 		paint.setStyle(Style.STROKE);
 	}
 
